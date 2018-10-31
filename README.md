@@ -22,12 +22,12 @@ The second sanity check is overfitting. I trained the neural network with small 
 **III. Hyperparameter Optimization**<br />
 
  - Min Range of the learning rate
- For a learning rate of value 10^(-9) , the loss is barely changing as shown below: 
+ For a learning rate of value 10^(-10) , the loss is barely changing as shown below: 
  
 ![min_alpha](https://user-images.githubusercontent.com/25064257/47790998-4c62c200-dd21-11e8-98b3-380d4a9253a5.PNG)
 
  - Max Range of the learning rate
- For a learning rate of value 10^(-2) , the loss explodes as shown below: 
+ For a learning rate of value 10^(-4) , the loss explodes as shown below: 
  
 ![alpha_max](https://user-images.githubusercontent.com/25064257/47791003-4d93ef00-dd21-11e8-8ed3-d27ea4954a80.PNG)
 
