@@ -24,17 +24,17 @@ The second sanity check is overfitting. I trained the neural network with small 
  - Min Range of the learning rate
  For a learning rate of value 10^(-9) , the loss is barely changing as shown below: 
  
- ![min](https://user-images.githubusercontent.com/25064257/47723655-a26e3180-dc5d-11e8-92fd-def349f14a3d.png)
+![min_alpha](https://user-images.githubusercontent.com/25064257/47790998-4c62c200-dd21-11e8-98b3-380d4a9253a5.PNG)
 
  - Max Range of the learning rate
  For a learning rate of value 10^(-2) , the loss explodes as shown below: 
  
-![max](https://user-images.githubusercontent.com/25064257/47723676-b44fd480-dc5d-11e8-8372-1a014a1d706e.png)
+![alpha_max](https://user-images.githubusercontent.com/25064257/47791003-4d93ef00-dd21-11e8-8ed3-d27ea4954a80.PNG)
 
 - Coarse Search
 After finding the min and max range of the learning rate, coarse search was run for 100 iterations to fine tune the learning and regularization paramters together. The search was done in the range shown below: 
 
-![range](https://user-images.githubusercontent.com/25064257/47723846-0c86d680-dc5e-11e8-9b00-aa5a0053cee2.png)
+![search_range](https://user-images.githubusercontent.com/25064257/47791005-4f5db280-dd21-11e8-91ce-ff3c35a824fb.PNG)
 
 - Fine Search
 After examining the coarse search results , the range was fixed to be : 
