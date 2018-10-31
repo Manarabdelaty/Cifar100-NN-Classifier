@@ -43,7 +43,7 @@ After examining the coarse search results , the range was fixed to be :
 
 The best 20 learning paramters that gave the highest validation accuracy are shown below: 
 
-![models](https://user-images.githubusercontent.com/25064257/47723972-5e2f6100-dc5e-11e8-954c-7576cbab766e.png)
+![fine_search_red](https://user-images.githubusercontent.com/25064257/47796365-dbc1a280-dd2c-11e8-9925-643a219ed692.PNG)
 
 **IV. Training with model 0**<br />
 
