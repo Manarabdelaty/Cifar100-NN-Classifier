@@ -49,19 +49,19 @@ The best 20 learning paramters that gave the highest validation accuracy are sho
 
 Training loss:<br />
 
-![tr_loss](https://user-images.githubusercontent.com/25064257/47725701-ac922f00-dc61-11e8-97fc-f95b5b76b1a7.png)
+![trainloss](https://user-images.githubusercontent.com/25064257/47808727-ae362280-dd47-11e8-8a3b-a839ac53c33b.PNG)
 
 validation loss:<br />
 
-![valid_loss](https://user-images.githubusercontent.com/25064257/47725729-bd42a500-dc61-11e8-9d35-05baa7e15a9a.png)
+![valid_loss](https://user-images.githubusercontent.com/25064257/47808771-c7d76a00-dd47-11e8-8a14-4160e064b054.PNG)
 
 The validation loss starts to increase after it was decreasing because the model suffered from overfitting.
-![acc](https://user-images.githubusercontent.com/25064257/47728310-bec29c00-dc66-11e8-87cc-3b2ac9b2abb1.png)
+![acc](https://user-images.githubusercontent.com/25064257/47808774-cc038780-dd47-11e8-9d23-c25e78ecb141.PNG)
 
 The history of the learned paramaters (Weights and biases) were saved and the model with the highest validation accuracy was used to testing giving an accuracy of **37.05%**.<br />
-![accr](https://user-images.githubusercontent.com/25064257/47728047-3d6b0980-dc66-11e8-83ea-75628db56531.PNG)
+![accr](https://user-images.githubusercontent.com/25064257/47808776-ce65e180-dd47-11e8-8b2b-46fb91a7d63c.PNG)
 
 The correct classification rate for the 20 classes are shown below: 
 
-![ccrn](https://user-images.githubusercontent.com/25064257/47728131-6ab7b780-dc66-11e8-92c5-2f873db6e477.PNG)
+![ccrn](https://user-images.githubusercontent.com/25064257/47808780-d0c83b80-dd47-11e8-8e69-dedc9fc6c400.PNG)
 
