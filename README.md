@@ -58,7 +58,7 @@ validation loss:<br />
 The validation loss starts to increase after it was decreasing because the model suffered from overfitting.
 ![acc](https://user-images.githubusercontent.com/25064257/47808774-cc038780-dd47-11e8-9d23-c25e78ecb141.PNG)
 
-The history of the learned paramaters (Weights and biases) were saved and the model with the highest validation accuracy was used to testing giving an accuracy of **37.05%**.<br />
+The history of the learned paramaters (Weights and biases) were saved and the model with the highest validation accuracy was used to testing giving an accuracy of **38.05%**.<br />
 ![accr](https://user-images.githubusercontent.com/25064257/47808776-ce65e180-dd47-11e8-8b2b-46fb91a7d63c.PNG)
 
 The correct classification rate for the 20 classes are shown below: 
